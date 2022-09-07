@@ -1,14 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby LB test`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `gatsby-lb-test`,
+    siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-mdx", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "pages",
-      "path": "./src/pages/"
-    },
-    __key: "pages"
-  }]
-};
+  plugins: [],
+}
