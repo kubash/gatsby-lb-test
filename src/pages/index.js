@@ -127,7 +127,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Tier 1
+      Tier {process.env.GATSBY_TIER}
       </h1>
     </main>
   )

@@ -1,7 +1,11 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `gatsby-lb-test`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://testlb.kubash.org`,
   },
   plugins: [],
 }

@@ -10,7 +10,7 @@ cache:
 pages:
   script:
     - npm i 
-    - ./node_modules/.bin/gatsby build --prefix-paths
+    - GATSBY_TIER=gitlab ./node_modules/.bin/gatsby build --prefix-paths
   artifacts:
     paths:
       - public
