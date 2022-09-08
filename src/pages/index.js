@@ -128,7 +128,6 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <h1 style={headingStyles}>
         Tier 1
-        <br />
       </h1>
     </main>
   )
